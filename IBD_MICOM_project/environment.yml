@@ -1,0 +1,17 @@
+name: gutbrain
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - micom==0.39.0
+      - cobra==0.31.1
+      - scikit-learn==1.7.2
+      - pandas==2.3.3
+      - numpy==2.2.6
+      - scipy
+      - matplotlib
+      - openpyxl
